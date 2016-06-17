@@ -10,3 +10,8 @@
  * @author  Lucas GEHIN <lucas@medialta.com>
  * @license LGPL
  */
+
+/**
+ * Hooks
+ */
+$GLOBALS['TL_HOOKS']['generatePage'][] = array('OutdatedBrowser', 'addOutdatedBrowserScripts');
