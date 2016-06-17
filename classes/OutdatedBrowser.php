@@ -27,6 +27,7 @@ class OutdatedBrowser extends \Frontend
         {
             $GLOBALS['TL_CSS'][] = 'system/modules/outdatedbrowser/assets/outdatedbrowser.min.css';
             $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/outdatedbrowser/assets/outdatedbrowser.min.js';
+            $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/outdatedbrowser/assets/outdatedbrowser-script.js';
         }
     }
 
